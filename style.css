@@ -51,7 +51,7 @@ body{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-a:hover{
+a:hover, a:active{
     background-color: rgba(0, 0, 0, .7);
     color: white;
 }
