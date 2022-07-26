@@ -60,19 +60,12 @@ body{
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    transition: .3s;
 }
 .links a:hover{
     background-color: rgba(0, 0, 0, .7);
     color: white;
-    animation: sizeUp .3s forwards;
-}
-@keyframes sizeUp {
-    from{
-        transform: scale(100%);
-    }
-    to{
-        transform: scale(102%);
-    }
+    transform: scale(103%);
 }
 .socMed img{
     margin: 0 20px;
@@ -92,5 +85,8 @@ body{
 @media (max-width:576px){
     .links a{
         width: 80%;
+    }
+    .socMed img{
+        margin: 0 15px;
     }
 }
