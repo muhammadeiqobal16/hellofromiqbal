@@ -13,6 +13,9 @@ body{
 .flex{
     display: flex;
 }
+:focus{
+    outline: none;
+}
 #content{
     height: 100vh;
     justify-content: center;
@@ -54,7 +57,6 @@ body{
 .links a:hover{
     background-color: rgba(0, 0, 0, .7);
     color: white;
-    outline-style: none;
 }
 .socMed img{
     margin: 0 20px;
