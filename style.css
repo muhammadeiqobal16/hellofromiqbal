@@ -14,7 +14,7 @@ a:focus, a:visited, a:active{
     outline: 0 !important;
 }
 body{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', 'Courier New', Courier, monospace;
     background-image: url(img/bgimg/bg6.jpg);
     background-size: cover;
     background-position: center;
