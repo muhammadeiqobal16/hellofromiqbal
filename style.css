@@ -89,7 +89,7 @@ footer{
 }
 @media (max-width:576px){
     .links{
-        width: 80%;
+        width: 90%;
     }
     .socMed img{
         margin: 0 15px;
