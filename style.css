@@ -71,6 +71,12 @@ body{
     margin: 0 20px;
     width: 30px;
 }
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 
 /* RESPONSIVENESS */
