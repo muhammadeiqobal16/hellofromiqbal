@@ -31,6 +31,7 @@ a{
 }
 #content{
     height: 100vh;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -71,8 +72,9 @@ a{
     width: 30px;
 }
 footer{
+    position: absolute;
     text-align: center;
-    position: fixed;
+    padding: 5px 0;
     bottom: 0;
     width: 100%;
 }
